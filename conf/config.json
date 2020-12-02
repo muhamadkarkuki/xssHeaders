@@ -1,0 +1,47 @@
+[
+    "Write XSS-Hunter next line..",
+    [
+        "-"
+    ],
+    "Write headers start from next line..",
+    [
+        "User-Agent",
+        "Mozilla/5.0 (X11; Linux x86_64; rv:12.0) Gecko/20100101 Firefox/12.0",
+        "Referer",
+        "https://www.google.com/",
+        "Client-IP",
+        "127.0.0.1",
+        "True-Client-IP",
+        "127.0.0.1",
+        "Cluster-Client-IP",
+        "127.0.0.1",
+        "X-Forwarded-For",
+        "127.0.0.1",
+        "Cache-Control",
+        "max-age=3600",
+        "From",
+        "user@google.com",
+        "Date",
+        "Tue, 15 Nov 2020 08:12:31 GMT",
+        "X-Att-Deviceid",
+        "GT-P7320/P7320XXLPG",
+        "Proxy-Connection",
+        "keep-alive",
+        "X-Do-Not-Track",
+        "1",
+        "X-Request-ID",
+        "f058ebd6-02f7-4d3f-942e-904344e8cde5",
+        "X-UIDH",
+        "31337DEADBEEFCAFE",
+        "X-Wap-Profile",
+        "http://wap.samsungmobile.com/uaprof/SGH-I777.xml"
+    ],
+    "write threads number next line..",
+    [
+        200
+    ],
+    "write timeout number next line..",
+    [
+        30
+    ]
+]
