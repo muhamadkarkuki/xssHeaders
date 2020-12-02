@@ -45,22 +45,21 @@ def waybackurls(domain):
 
 # Function: to filter data entered (anyway convert to list)
 def filter(value):
-	if value is not None:
+    if value is not None:
 
-		if type(value) == str and ',' not in value:
-			value = value.split(' ')
+        if path.isfile(value) == True:
+            with open(value) as _file:
+                value = [line.rstrip() for line in _file]
 
-		elif ',' in value:
-			value = value.split(',')
+        elif type(value) == str and ',' not in value:
+            value = value.split(' ')
 
-		elif path.isfile(value) == True:
-			with open(value) as _file:
-				value = [line.rstrip() for line in _file]
-		
-		else:
-			value = None
-
-	return value
+        elif ',' in value:
+            value = value.split(',')
+        
+        else:
+            value = None
+    return value
 
 
 # Function: to calculator lines from file
