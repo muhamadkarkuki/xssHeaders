@@ -5,7 +5,7 @@ The tool will request all urls with headers plus xsshunter payloads , if site st
 you can test domain or multiple domains but seperator via [,] sign <br>
 
 ## Installation
-pip3 install -r requments.txt <br> OR <br>
+pip3 install -r requirements.txt <br> OR <br>
 ```bash
 pip3 install requests
 pip3 install argparse
