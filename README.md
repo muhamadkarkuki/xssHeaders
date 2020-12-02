@@ -10,8 +10,12 @@ pip3 install -r requments.txt <br> OR <br>
 pip3 install requests
 pip3 install argparse
 pip3 install urllib3
-pip3 install futures
+pip3 install random
+pip3 install time
+pip3 install json
+pip3 install os
 pip3 install sys
+pip3 install concurrent.futures
 ```
 ## Usage
 short arg     | long arg      | Description
