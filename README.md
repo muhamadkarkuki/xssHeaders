@@ -1,7 +1,7 @@
 ## About script
 This tool test blind xss using xsshunter via many headers [user-agent , referer , etc..] <br> 
-Give urls or to work or only domain and will get urls from web-archive site  <br>
-The tool will request all endpoints with headers plus xsshunter payloads and if the site store user-agent or any header value the vulnerability will append and alert in your xsshunter profile<br>
+Give urls or to work or only domain and the tool will get urls from web-archive site  <br>
+The tool will request all urls with headers plus xsshunter payloads , if site store user-agent or Client-IP value or any header your entered the vulnerability will append and alert in your xsshunter profile<br>
 you can test domain or multiple domains but seperator via [,] sign <br>
 
 ## Installation
