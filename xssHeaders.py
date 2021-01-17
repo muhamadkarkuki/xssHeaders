@@ -16,7 +16,7 @@ from scripts import func as function
 #======================= Start Arguments ==============
 parser_arg_menu = argparse.ArgumentParser(prog='tool', formatter_class=lambda prog: argparse.HelpFormatter(prog, max_help_position=30))
 parser_arg_menu.add_argument("-c",  "--config",   help="set configs tool",  action="store_true")
-parser_arg_menu.add_argument("-p",  "--proxies",  help="set proxy to use <file>, string, default", metavar="")
+parser_arg_menu.add_argument("-p",  "--proxies",  help="set proxy to use <file>, ip:port, 'default'", metavar="")
 parser_arg_menu.add_argument("-u",  "--urls", 	  help="urls file", metavar="")
 parser_arg_menu.add_argument("-d",  "--domain",   help="One domain | will use web-archive site to get urls", metavar="")
 parser_arg_menu.add_argument("-ds", "--domains",  help="List domains <file> or seperatot via sign [,] | will use web-archive site to get urls", metavar="")
