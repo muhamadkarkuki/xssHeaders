@@ -1,6 +1,5 @@
 requests
 argparse
-random
 time
 urllib3
 json
